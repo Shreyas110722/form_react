@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { JSON } from "./components/jsonScript";
+import Script from "./components/formScript";
+import Basic from "./components/basic";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Task</h1>
+      <Basic/>
+      {/* <div style={{display:"flex",justifyContent:"space-evenly",gap:"1%",padding:"1%"}}>
+        {JSON.map((item, i) => {
+          return (
+            <div
+              key={i}
+              style={{ border: "1px solid black", width: "30%" }}
+            >
+              <h1>{item.company}</h1>
+              <h1>{item.ticker}</h1>
+              <h1>{item.stockPrice}</h1>
+              <h1>{item.timeElapsed}</h1>
+            </div>
+          );
+        })}
+      </div> */}
+     <Script/>
     </div>
   );
 }

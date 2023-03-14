@@ -1,0 +1,28 @@
+{
+  "persons": [
+    {
+      "name": "Archana",
+      "age": "21"
+    },
+    {
+      "name": "Shelly",
+      "age": "25"
+    },
+    {
+      "name": "Pranjal",
+      "age": "30"
+    },
+    {
+        "name": "Shreyas",
+        "age": "30"
+      },
+      {
+        "name": "Prajwal",
+        "age": "30"
+      },
+      {
+        "name": "chetan",
+        "age": "25"
+      }
+  ]
+}
